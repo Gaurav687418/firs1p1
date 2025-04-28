@@ -1,17 +1,6 @@
-import java.util.Scanner;
-
-public class EvenOdd {
-
-    public static void main(String[] args) {
-
-        Scanner reader = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int num = reader.nextInt();
-
-        if(num % 2 == 0)
-            System.out.println(num + " is even");
-        else
-            System.out.println(num + " is odd");
-    }
-}
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello batch38 team with Praveen, Mustafa");
+      System.out.println("Hello Batch batch38 WITH FOR STUDENTS RUNNING in front of me and Suresh, Prashant in making CI automated vikas teach devops CI proecss");
+    }  
+} 
