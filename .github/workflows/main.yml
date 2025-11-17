@@ -1,11 +1,13 @@
-name:CI
+name: Demo Workflow
+
 on:
- push:
-    branches: 
-       -main
+  push:
+    branches:
+      - main
+
 jobs:
- demo:
-  runs-on: ubuntu-latest
-  steps:
-   -name: Greeting
-     run: echo "Hello world"
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting
+        run: echo "Hello world"
